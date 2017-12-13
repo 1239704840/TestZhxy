@@ -1,0 +1,9 @@
+D:\Private Files\Demo\Solution1\BLL\bin\Debug\BLL.dll
+D:\Private Files\Demo\Solution1\BLL\bin\Debug\BLL.pdb
+D:\Private Files\Demo\Solution1\BLL\bin\Debug\Common.dll
+D:\Private Files\Demo\Solution1\BLL\bin\Debug\DAL.dll
+D:\Private Files\Demo\Solution1\BLL\bin\Debug\Common.pdb
+D:\Private Files\Demo\Solution1\BLL\bin\Debug\DAL.pdb
+D:\Private Files\Demo\Solution1\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+D:\Private Files\Demo\Solution1\BLL\obj\Debug\BLL.dll
+D:\Private Files\Demo\Solution1\BLL\obj\Debug\BLL.pdb
