@@ -3,3 +3,8 @@ D:\Private Files\Demo\Solution1\Common\bin\Debug\Common.pdb
 D:\Private Files\Demo\Solution1\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
 D:\Private Files\Demo\Solution1\Common\obj\Debug\Common.dll
 D:\Private Files\Demo\Solution1\Common\obj\Debug\Common.pdb
+D:\Private Files\Demo\git_test\Common\bin\Debug\Common.dll
+D:\Private Files\Demo\git_test\Common\bin\Debug\Common.pdb
+D:\Private Files\Demo\git_test\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+D:\Private Files\Demo\git_test\Common\obj\Debug\Common.dll
+D:\Private Files\Demo\git_test\Common\obj\Debug\Common.pdb

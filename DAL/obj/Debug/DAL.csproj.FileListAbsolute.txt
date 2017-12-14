@@ -5,3 +5,12 @@ D:\Private Files\Demo\Solution1\DAL\obj\Debug\DAL.pdb
 D:\Private Files\Demo\Solution1\DAL\bin\Debug\Common.dll
 D:\Private Files\Demo\Solution1\DAL\bin\Debug\Common.pdb
 D:\Private Files\Demo\Solution1\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\Private Files\Demo\git_test\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\Private Files\Demo\git_test\DAL\obj\Debug\DAL.dll
+D:\Private Files\Demo\git_test\DAL\obj\Debug\DAL.pdb
+D:\Private Files\Demo\git_test\DAL\bin\Debug\DAL.dll
+D:\Private Files\Demo\git_test\DAL\bin\Debug\DAL.pdb
+D:\Private Files\Demo\git_test\DAL\bin\Debug\Common.dll
+D:\Private Files\Demo\git_test\DAL\bin\Debug\Model.dll
+D:\Private Files\Demo\git_test\DAL\bin\Debug\Common.pdb
+D:\Private Files\Demo\git_test\DAL\bin\Debug\Model.pdb

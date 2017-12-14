@@ -4,12 +4,13 @@ using System.Configuration;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
+using Model;
 
 namespace DAL
 {
     public class UserDB
     {
-        public bool add(Common.User user)
+        public bool add(User user)
         {
             string setting = "Data Source=.;Initial Catalog=Day01;User ID=sa;Password=root";
 
@@ -21,6 +22,34 @@ namespace DAL
 
             cmd.Parameters.AddWithValue("@name", user.Username);
             cmd.Parameters.AddWithValue("@password", user.Password);
+            try
+            {
+                if (cmd.ExecuteNonQuery() > 0)
+
+                {
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+            }
+            catch (Exception e)
+            {
+                string error = e.Message + "\n\r" + e.Source + "\n\r" + e.StackTrace;
+                return false;
+            }
+        }
+        public bool seek(User user)
+        {
+            string setting = "Data Source=.;Initial Catalog=Day01;User ID=sa;Password=root";
+
+            SqlConnection myconn = new SqlConnection(setting);
+
+            myconn.Open();
+
+            SqlCommand cmd = new SqlCommand("select * from dbo.[user]",myconn);
+
             try
             {
                 if (cmd.ExecuteNonQuery() > 0)

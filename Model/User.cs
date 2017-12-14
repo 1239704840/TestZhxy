@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Common
+namespace Model
 {
     public class User //实体类
     {

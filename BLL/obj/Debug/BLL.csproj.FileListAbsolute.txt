@@ -7,3 +7,12 @@ D:\Private Files\Demo\Solution1\BLL\bin\Debug\DAL.pdb
 D:\Private Files\Demo\Solution1\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
 D:\Private Files\Demo\Solution1\BLL\obj\Debug\BLL.dll
 D:\Private Files\Demo\Solution1\BLL\obj\Debug\BLL.pdb
+D:\Private Files\Demo\git_test\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+D:\Private Files\Demo\git_test\BLL\obj\Debug\BLL.dll
+D:\Private Files\Demo\git_test\BLL\obj\Debug\BLL.pdb
+D:\Private Files\Demo\git_test\BLL\bin\Debug\BLL.dll
+D:\Private Files\Demo\git_test\BLL\bin\Debug\BLL.pdb
+D:\Private Files\Demo\git_test\BLL\bin\Debug\DAL.dll
+D:\Private Files\Demo\git_test\BLL\bin\Debug\Model.dll
+D:\Private Files\Demo\git_test\BLL\bin\Debug\DAL.pdb
+D:\Private Files\Demo\git_test\BLL\bin\Debug\Model.pdb
