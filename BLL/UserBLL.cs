@@ -16,9 +16,9 @@ namespace BLL
             return db.add(user);
         }
         //查询用户
-        public void SelectUser(User user)
+        public bool SelectUser(User user)
         {
-
+            return db.seek(user);
         }
         //判断用户是否存在
         public void IsExist(User user)

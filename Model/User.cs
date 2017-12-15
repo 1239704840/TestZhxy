@@ -41,5 +41,6 @@ namespace Model
             this.Username = username;
             this.Password = password;
         }
+        public User() { }
     }
 }

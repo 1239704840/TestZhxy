@@ -54,6 +54,16 @@ namespace WebApp
             //        }
             //        con.Close();
             //    }
+            User user = new User(labuser.Text, labpwd.Text);
+            UserBLL userbll = new UserBLL();
+            if (userbll.SelectUser(user))
+            {
+                Label3.Text = "登陆成功";
+            }
+            else
+            {
+                Label3.Text = "登陆失败";
+            }
         }
 
         protected void abov_Click(object sender, EventArgs e)
