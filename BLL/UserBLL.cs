@@ -8,7 +8,7 @@ using Model;
 namespace BLL
 {
  public    class UserBLL
-    {
+    {  //测试
         UserDB db = new UserDB();
         //添加用户
         public bool AddUser(User user) 
