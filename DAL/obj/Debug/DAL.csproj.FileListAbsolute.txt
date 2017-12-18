@@ -14,3 +14,12 @@ D:\Private Files\Demo\git_test\DAL\bin\Debug\Common.dll
 D:\Private Files\Demo\git_test\DAL\bin\Debug\Model.dll
 D:\Private Files\Demo\git_test\DAL\bin\Debug\Common.pdb
 D:\Private Files\Demo\git_test\DAL\bin\Debug\Model.pdb
+D:\Private Files\Demo\Project1\trunk\DAL\bin\Debug\DAL.dll
+D:\Private Files\Demo\Project1\trunk\DAL\bin\Debug\DAL.pdb
+D:\Private Files\Demo\Project1\trunk\DAL\bin\Debug\Common.dll
+D:\Private Files\Demo\Project1\trunk\DAL\bin\Debug\Model.dll
+D:\Private Files\Demo\Project1\trunk\DAL\bin\Debug\Common.pdb
+D:\Private Files\Demo\Project1\trunk\DAL\bin\Debug\Model.pdb
+D:\Private Files\Demo\Project1\trunk\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\Private Files\Demo\Project1\trunk\DAL\obj\Debug\DAL.dll
+D:\Private Files\Demo\Project1\trunk\DAL\obj\Debug\DAL.pdb

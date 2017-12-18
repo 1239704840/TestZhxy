@@ -16,3 +16,12 @@ D:\Private Files\Demo\git_test\BLL\bin\Debug\DAL.dll
 D:\Private Files\Demo\git_test\BLL\bin\Debug\Model.dll
 D:\Private Files\Demo\git_test\BLL\bin\Debug\DAL.pdb
 D:\Private Files\Demo\git_test\BLL\bin\Debug\Model.pdb
+D:\Private Files\Demo\Project1\trunk\BLL\bin\Debug\BLL.dll
+D:\Private Files\Demo\Project1\trunk\BLL\bin\Debug\BLL.pdb
+D:\Private Files\Demo\Project1\trunk\BLL\bin\Debug\DAL.dll
+D:\Private Files\Demo\Project1\trunk\BLL\bin\Debug\Model.dll
+D:\Private Files\Demo\Project1\trunk\BLL\bin\Debug\DAL.pdb
+D:\Private Files\Demo\Project1\trunk\BLL\bin\Debug\Model.pdb
+D:\Private Files\Demo\Project1\trunk\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+D:\Private Files\Demo\Project1\trunk\BLL\obj\Debug\BLL.dll
+D:\Private Files\Demo\Project1\trunk\BLL\obj\Debug\BLL.pdb
