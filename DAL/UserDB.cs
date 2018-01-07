@@ -13,7 +13,7 @@ namespace DAL
         User user = new User();
         public bool add(User user)
         {//数据库连接类（连接字符串）
-            string setting = "Data Source=120.79.60.18;Initial Catalog=test;Persist Security Info=True;User ID=sa";
+            string setting = "Data Source=120.79.60.18;Initial Catalog=test;Persist Security Info=True;User ID=user;Password=root";
 
             SqlConnection myconn = new SqlConnection(setting);
             //打开数据库
@@ -45,7 +45,7 @@ namespace DAL
         public bool seek(User user)
         {
             bool result=false;
-            SqlConnection conn = new SqlConnection("Data Source=120.79.60.18;Initial Catalog=test;Persist Security Info=True;User ID=sa");
+            SqlConnection conn = new SqlConnection("Data Source=120.79.60.18;Initial Catalog=test;Persist Security Info=True;User ID=user;Password=root");
             SqlCommand cmd = conn.CreateCommand();
                       cmd.CommandText = "SELECT   [user].* FROM[user] where (username = '"+user.Username+"') AND (password = '"+user.Password+"')";
             conn.Open();
