@@ -4,27 +4,42 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-       <title>主页</title>
-  </head>
-    
-    <body style="height: 45px">
-        <form id="form1" runat="server">
-            <asp:Menu ID="Menu1" runat="server" BackColor="#FFFBD6" DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="0.8em" ForeColor="#990000" Height="26px" OnMenuItemClick="Menu1_MenuItemClick" StaticSubMenuIndent="10px" Width="383px">
-                <DynamicHoverStyle BackColor="#990000" ForeColor="White" />
-                <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
-                <DynamicMenuStyle BackColor="#FFFBD6" />
-                <DynamicSelectedStyle BackColor="#FFCC66" />
-                <DynamicItemTemplate>
-                    <%# Eval("Text") %>
-                </DynamicItemTemplate>
-                <StaticHoverStyle BackColor="#990000" ForeColor="White" />
-                <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
-                <StaticSelectedStyle BackColor="#FFCC66" />
-                <StaticItemTemplate>
-                    <%# Eval("Text") %>
-                </StaticItemTemplate>
-            </asp:Menu>
-        </form>
+    <link rel="stylesheet" href="/resource/css/myMain.css" type="text/css" />
+    <script type="text/javascript" src="/resource/js/myMain.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>主页</title>
+</head>
+
+<body bgcolor="#3399ff">
+    <form id="form1" runat="server">
+        <div id="container">
+            <div id="banner">
+                <a href="javascript:loginOrRegister()" class="logIn">登陆/注册：<asp:Image ImageUrl="/resource/img/in.png" runat="server" />
+                </a>
+                <br />
+                <a href="register.aspx" class="logOut">登出：<asp:Image ImageUrl="/resource/img/out.png" runat="server" /></a>
+                <%
+                    if (Session["UserName"] != null)
+                    {
+
+                        Label3.Text = "欢迎回来，" + Session["UserName"].ToString();
+                    }
+                    else
+                    {
+                        Label3.Text = "您还未登陆，请先登陆！";
+                    }
+
+                %>
+                <asp:Label ID="Label3" runat="server"></asp:Label>
+            </div>
+            <div id="body">
+                <div id="left">
+                </div>
+                <div id="middle">
+                </div>
+                <div id="right"></div>
+            </div>
+        </div>
+    </form>
 </body>
 </html>

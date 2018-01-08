@@ -25,6 +25,8 @@ namespace WebApp
             if (userbll.SelectUser(user))
             {
                 Label3.Text = "登陆成功";
+                Session["UserName"] = labuser.Text;
+                Response.Redirect(@"index.aspx");
             }
             else
             {

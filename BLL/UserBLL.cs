@@ -11,7 +11,7 @@ namespace BLL
     {  //测试
         UserDB db = new UserDB();
         //添加用户
-        public bool AddUser(User user) 
+        public bool AddUser(User user)
         {
             return db.add(user);
         }
@@ -25,5 +25,6 @@ namespace BLL
         {
 
         }
+        //判断用户
     }
 }

@@ -4,55 +4,14 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <style type="text/css">
-        * {
-            margin: 0px;
-            padding: 0px;
-            border: 0px;
-        }
-
-        #container {
-            width: 80%;
-            height: 768px;
-            margin: 0px auto;
-        }
-
-        #banner {
-            width: 100%;
-            height: 20%;
-            background-color: red;
-        }
-
-        #body {
-            width: 100%;
-            height: 80%;
-        }
-
-        #left {
-            width: 20%;
-            height: 100%;
-            float: left;
-            background-color: blue;
-        }
-
-        #middle {
-            width: 60%;
-            height: 100%;
-            float: left;
-            background-color: yellow;
-        }
-
-        #right {
-            width: 20%;
-            height: 100%;
-            float: left;
-            background-color: pink;
-        }
-    </style>
+    <link rel="stylesheet" href="/resource/css/myMain.css" type="text/css" />
+    <!--<style type="text/css">
+        @import url(/resource/css/myMain.css);
+    </style>-->
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title></title>
 </head>
-<body  bgcolor="#3399ff">
+<body bgcolor="#3399ff">
     <div id="container">
         <div id="banner"></div>
         <div id="body">
